@@ -26,14 +26,17 @@ input  {
 
 fieldset {
   margin: 115px;
-  border: 2.5px solid black;
+  border: 5px solid black;
   padding: 4px;
   border-radius: 2px;
+  background-image: linear-gradient(to bottom right, white, grey);
 }
 
 legend {
   padding: 2px;
   font: 1em/1.25em Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 30px black;
+  font-variant: small-caps;
 }
 
 .container {
@@ -55,6 +58,9 @@ li {
   font-variant: small-caps;
   font: 1em/1.25em Arial, Helvetica, sans-serif;
   border-color: black;
+  text-shadow: 2px 2px 32px black;
+  font-variant: small-caps;
+  list-style: none;
 }
 
 .navigationbar ul {
