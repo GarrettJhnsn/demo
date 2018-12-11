@@ -21,10 +21,10 @@ input  {
 }
 
 fieldset {
-  margin: 8px;
-  border: 5px solid silver;
-  padding: 8px;
-  border-radius: 4px;
+  margin: 115px;
+  border: 2.5px solid black;
+  padding: 4px;
+  border-radius: 2px;
 }
 
 legend {
@@ -45,4 +45,35 @@ legend {
 
 .fieldset-auto-width {
   display: inline-block;
+}
+
+li {
+  font-variant: small-caps;
+  font: 1em/1.25em Arial, Helvetica, sans-serif;
+  border-color: black;
+}
+
+.navigationbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.navigationbar li {
+  float: left;
+}
+
+.navigationbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: grey;
 }
