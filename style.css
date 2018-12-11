@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(to bottom right, white, grey);
+}
+
 form {
   font-size: 20px;
   font: 1em/1.25em Arial, Helvetica, sans-serif;
@@ -64,6 +68,7 @@ li {
 
 .navigationbar li {
   float: left;
+  border-right: 1px solid white;
 }
 
 .navigationbar li a {
@@ -72,6 +77,10 @@ li {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navigationbar li a:hover:not(.active){
+  background-color: darkgrey;
 }
 
 .active {
